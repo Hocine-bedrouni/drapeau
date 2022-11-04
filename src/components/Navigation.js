@@ -3,13 +3,16 @@ import React from 'react';
 
 const navigation = () => {
     return (
-        <div className='bg-red-200 text-justify'>
+        <div className='bg-yellow-300 inline-flex'>
           
                 <NavLink to="/home">
-                    <h3 className='text-start'>accueil</h3>
+                    <h3 className='mr-50'>accueil</h3>
                 </NavLink>
                 <NavLink to="/about">
-                    <h3 className='text-end'>à propos</h3>
+                    <h3 className='pl-200'>à propos</h3>
+                </NavLink>
+                <NavLink to="/about">
+                    <h3 className='ml-20'>à propos</h3>
                 </NavLink>
            
             

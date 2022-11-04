@@ -10,7 +10,7 @@ root.render(
 
   <React.StrictMode>
     <div className='my-8'>
-    <h1 className="text-8xl text-center ">TEST</h1>
+    <h1 className="text-8xl text-center ">ALLO-MOVIE</h1>
     <App />
     </div>
   </React.StrictMode>
